@@ -97,11 +97,11 @@ This ensures the packages are **FULLY** compatible and stable within the editor.
 6. Finally, you now have a stable package to edit, correct, and use freely within the editor.
 
 > [!CAUTION]
-> This process will strip the vertices of mesh objects. However if you export all meshes that the package carries, in the editor or UPKE. You can then import said meshes over the .T3DPKG's mesh assets.
->
-> Saving the package **BEFORE** reimporting the mesh objects will cause material references to become null.
->
-> Therefore it is recommended to have all your meshes ready and extract, before you import the .T3DPKG.
+> This process will strip the vertices of mesh objects.
+
+To avoid this you can reimport the meshes **BEFORE** saving the new package. Which will retain all material references.
+
+ Therefore it is recommended to have all your meshes ready and extracted, before you import the .T3DPKG.
  
 
 #### Correcting packages

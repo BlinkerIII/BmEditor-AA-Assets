@@ -76,13 +76,12 @@ This is to avoid conflicts with AC Packages and make AA packages easily visible 
 
 This ensures the packages are **FULLY** compatible and stable within the editor.
 > [!CAUTION]
-> Not converting can cause crashes when:
-> 
-> You cook a package using them
-> 
-> You attempt to edit them in the editor
-> 
-> Or otherwise general instability
+> Not converting can cause crashes!!!
+
+Usually these crashes will occur when:
+ You cook a package using them
+ You attempt to edit them in the editor 
+ Or otherwise general instability
 
 1. Fully load the package you want to convert in the content browser
    - Once fully loaded save the package

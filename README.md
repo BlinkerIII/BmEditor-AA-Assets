@@ -70,6 +70,7 @@ This is to avoid conflicts with AC Packages and make AA packages easily visible 
 
 >[!NOTE]
 >Maps and Objects are to retain their **ORIGINAL** name
+>
 >Cross package references will also need to account for the addition of the prefix 
 
 ### Conversion
@@ -84,7 +85,7 @@ Usually these crashes will occur when:
  
  You attempt to edit them in the editor 
  
- You open them
+ You open/edit an object within the map or package
 
 #### Package Conversion
 

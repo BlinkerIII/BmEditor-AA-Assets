@@ -72,19 +72,21 @@ This is to avoid conflicts with AC Packages and make AA packages easily visible 
 >Maps and Objects are to retain their **ORIGINAL** name
 >Cross package references will also need to account for the addition of the prefix 
 
-### Conversion Process of packages
+### Conversion
 
-This ensures the packages are **FULLY** compatible and stable within the editor.
+This ensures the packages/maps are **FULLY** compatible and stable within the editor.
 > [!CAUTION]
-> Not converting can cause crashes!!!
+> Not converting can cause general instability or crashes!!!
 
 Usually these crashes will occur when:
 
- You cook a package using them
+ You cook a map with an unconverted package
  
  You attempt to edit them in the editor 
  
- Or otherwise general instability
+ You open them
+
+#### Package Conversion
 
 1. Fully load the package you want to convert in the content browser
    - Once fully loaded save the package

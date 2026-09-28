@@ -1,0 +1,33 @@
+name: Build Release Package
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Create Finished Packages ZIP
+        run: |
+          mkdir -p PackageZip/Packages
+          cp -a Packages/Finished/. PackageZip/Packages/
+          rm -f "PackageZip/Packages/! THESE FILES ARE FINISHED"
+          cd PackageZip
+          zip -r ../Finished-Packages.zip Packages/
+
+      - name: Upload Finished Packages to Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload \
+            "${{ github.event.release.tag_name }}" \
+            Finished-Packages.zip \
+            --clobber

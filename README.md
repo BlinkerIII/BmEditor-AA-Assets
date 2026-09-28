@@ -30,9 +30,69 @@ Gameplay Objects and Sounds may be considered in the future.
 
 If you wish to contact me, I'm most active in [Arkham Workshop](https://discord.com/invite/arkhamworkshop).
 
+Also big thanks to Bit for uncooking the packages to begin with and making BmEditor!
+
 
 ## Contributing
 
+### General Notes
+
+For now the unconverted packages will all be prefixed with AA_, just so if you use this as a place to install them for converting them. You don't have to rename them yourself. If it turns out to be better/easier if they remain their original name until being fully converted, let me know!
+
+Below are lists of some important or unimportant packages.
+
+<details>
+<summary>Resource Packages</summary>
+These are packages which contain commonly referenced assets, which will usually be referenced cross package. And will be converted already or as soon as possible.
+
+```
+Floor_Tiles
+FX_BulletHits
+FX_Combat
+fx_decals
+fx_exlosion
+FX_Forensics
+FX_Godrays
+fx_Goo
+FX_grapple
+FX_Interactive
+FX_Liquid
+FX_Liquid
+FX_Luminol
+fx_misc
+FX_molecules
+FX_noise
+fx_security
+fx_smoke
+FX_Sparks
+FX_Trail
+FX_Weather
+Game_Grate_Wall
+Game_Pickups
+guard
+LIGHTS_Int
+LuminolGrenade_3p
+Map
+MAT_Glass
+MAT_GrungeOverlay
+MAT_Metal
+Mental_Patient
+MyPackage
+OBJ_FireExtinguisher
+OBJ_Gas_Dispenser
+OBJ_LOCKER
+SIGN_Interior
+SIGN_Lift
+```
+This list can change.
+ 
+</details>
+<details>
+<summary>Useless Packages</summary>
+A great many packages are relatively useless/redundant. As their assets aren't usable in the editor, or aren't in scope for this project.
+
+Mostly any packages with an EN prefix, or SFX in the name will only contain soundfiles.
+</details>
 
 
 ### Recommended Tools
